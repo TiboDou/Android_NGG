@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- https://developer.android.com/guide/topics/resources/animation-resource?hl=fr -->
+
+    <!-- Ici on modifie l'orientation de l'imageview -->
+    <rotate
+        android:duration = "4000"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromDegrees="0"
+        android:toDegrees="360"/>
+
+    <!-- Ici on modifie l'échelle de l'imageview -->
+    <scale
+        android:duration = "4000"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromXScale="0.0"
+        android:toXScale="1.0"
+        android:fromYScale="0.0"
+        android:toYScale="1.0"/>
+
+</set>

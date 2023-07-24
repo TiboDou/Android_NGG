@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NombreMagique</string>
+    <string name="info">Choisissez un nombre de chiffres. Vous aurez 10 chances pour trouver le bon nombre.
+    </string>
+</resources>
